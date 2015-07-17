@@ -1,14 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityStandardAssets;
+using UnityStandardAssets.CrossPlatformInput;
+using UnityStandardAssets._2D;
 
 public class CoinPickUp : MonoBehaviour {
 
 	public int pointToAdd;
 
-	void OnTriggerEnter2D (Collider other) {
+	void OnTriggerEnter2D (Collider2D other) {
 
-		//if (other.GetComponent<PlatformerCharacter2D> () == null)
-			//return;
+		if (other.GetComponent<PlatformerCharacter2D> () == null)
+			return;
 
 		ScoreManager.AddPoints (pointToAdd);
 
