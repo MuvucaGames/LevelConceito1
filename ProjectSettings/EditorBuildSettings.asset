@@ -11,3 +11,5 @@ EditorBuildSettings:
     path: Assets/JumpTest/Scenes/JumpTest.unity
   - enabled: 1
     path: Assets/Run/Scenes/Run.unity
+  - enabled: 1
+    path: Assets/PickUpItems/Scenes/PickUpTest.unity
