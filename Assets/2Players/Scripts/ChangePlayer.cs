@@ -10,6 +10,7 @@ public class ChangePlayer : MonoBehaviour {
 	Text player1Text;
 	Text player2Text;
 	Text dualControlText;
+	GameObject helpText;
 	// Use this for initialization
 	void Start () {
 		player1 = GameObject.Find ("Player1");
@@ -17,9 +18,12 @@ public class ChangePlayer : MonoBehaviour {
 		player1Text = GameObject.Find ("Player1Text").GetComponent<Text> ();
 		player2Text = GameObject.Find ("Player2Text").GetComponent<Text> ();
 		dualControlText = GameObject.Find ("DualControlText").GetComponent<Text> ();
+		helpText = GameObject.Find ("HelpText");
 
 		player1.GetComponent<PlatformerCharacterFollower> ().SetObjectToFollow (player2);
 		player2.GetComponent<PlatformerCharacterFollower> ().SetObjectToFollow (player1);
+
+		SetPlayer (true);
 	}
 
 	void SetPlayer(bool first)
@@ -38,6 +42,7 @@ public class ChangePlayer : MonoBehaviour {
 		player2Text.color = first ? Color.white : Color.red;
 
 		dualControlText.color = Color.white;
+		helpText.SetActive (false);
 	}
 
 	void SetDualMode()
@@ -58,6 +63,8 @@ public class ChangePlayer : MonoBehaviour {
 		player1.GetComponent<Platformer2DDualControl> ().SetMode (true);
 		player2.GetComponent<Platformer2DDualControl> ().enabled = true;
 		player2.GetComponent<Platformer2DDualControl> ().SetMode (false);
+
+		helpText.SetActive (true);
 	}
 	
 	// Update is called once per frame
