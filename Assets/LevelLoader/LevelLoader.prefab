@@ -182,8 +182,8 @@ MonoBehaviour:
   - JumpTest
   - Run
   - PickUpTest
-  - 
-  - 
+  - EnemyConcept
+  - Jump
   - 
   - 
   - 
@@ -477,6 +477,14 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: levels.Array.data[2]
       value: PickUpTest
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: levels.Array.data[3]
+      value: EnemyConcept
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: levels.Array.data[4]
+      value: Jump
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
