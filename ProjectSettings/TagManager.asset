@@ -14,8 +14,8 @@ TagManager:
   - 
   - 
   - ground
-  - 
-  - 
+  - Player
+  - PlayerDontCollide
   - 
   - 
   - 
