@@ -17,3 +17,5 @@ EditorBuildSettings:
     path: Assets/Jump/Scenes/Jump.unity
   - enabled: 1
     path: Assets/EnemyConcept/Scenes/EnemyConcept.unity
+  - enabled: 1
+    path: Assets/2Players/Scenes/2Players.unity
