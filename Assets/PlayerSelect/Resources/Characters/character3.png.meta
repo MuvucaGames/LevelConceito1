@@ -1,0 +1,244 @@
+fileFormatVersion: 2
+guid: 2437388f8d528754a9b0e973b97d1695
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ear_left
+    21300002: ear_right
+    21300004: head
+    21300006: hat
+    21300008: eye_left
+    21300010: eye_right
+    21300012: snout
+    21300014: mouth
+    21300016: cheekhair_left
+    21300018: cheekhair_right
+    21300020: arm_left
+    21300022: body
+    21300024: arm_right
+    21300026: hand_left
+    21300028: hand_right
+    21300030: foot_left
+    21300032: foot_right
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: ear_left
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1480
+        width: 276
+        height: 313
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ear_right
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1543
+        width: 262
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: head
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1312
+        width: 527
+        height: 481
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hat
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1053
+        width: 650
+        height: 357
+      alignment: 9
+      pivot: {x: .398319006, y: .270787179}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: eye_left
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1093
+        width: 147
+        height: 111
+      alignment: 9
+      pivot: {x: .5, y: .600000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: eye_right
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1086
+        width: 125
+        height: 111
+      alignment: 9
+      pivot: {x: .5, y: .600000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: snout
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 848
+        width: 151
+        height: 95
+      alignment: 9
+      pivot: {x: .145171076, y: .285736412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mouth
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 892
+        width: 91
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cheekhair_left
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 701
+        width: 228
+        height: 294
+      alignment: 9
+      pivot: {x: .720860779, y: .639165163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cheekhair_right
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 644
+        width: 228
+        height: 294
+      alignment: 9
+      pivot: {x: .251531512, y: .628460109}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: arm_left
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 594
+        width: 108
+        height: 90
+      alignment: 9
+      pivot: {x: .762756467, y: .848497868}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: body
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 311
+        width: 312
+        height: 287
+      alignment: 9
+      pivot: {x: .540349722, y: .324542433}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: arm_right
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 500
+        width: 93
+        height: 98
+      alignment: 9
+      pivot: {x: .163364202, y: .749759614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hand_left
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 344
+        width: 114
+        height: 121
+      alignment: 9
+      pivot: {x: .586920023, y: .878749132}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hand_right
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 288
+        width: 103
+        height: 110
+      alignment: 9
+      pivot: {x: .129730523, y: .78978467}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: foot_left
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 210
+        height: 232
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: foot_right
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 36
+        width: 179
+        height: 198
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
