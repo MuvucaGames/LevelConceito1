@@ -19,3 +19,5 @@ EditorBuildSettings:
     path: Assets/EnemyConcept/Scenes/EnemyConcept.unity
   - enabled: 1
     path: Assets/2Players/Scenes/2Players.unity
+  - enabled: 1
+    path: Assets/PlayerSelect/Scene/PlayerSelect.unity

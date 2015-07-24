@@ -185,7 +185,7 @@ MonoBehaviour:
   - EnemyConcept
   - Jump
   - 2Players
-  - 
+  - PlayerSelect
   - 
   buttonPrefab: {fileID: 102938, guid: a984fbbb7c8f92b4b95acfcfc76bba39, type: 2}
   ButtonHolder: {fileID: 169318}
@@ -489,6 +489,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: levels.Array.data[5]
       value: 2Players
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: levels.Array.data[6]
+      value: PlayerSelect
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
